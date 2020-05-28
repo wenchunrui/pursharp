@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Puresharp Wen 温纯锐的个人博客
+title: Puresharp Wen
 subtitle: '温纯锐的个人博客'
 description: '温纯锐的个人博客'
 keywords: 'JavaScript,PHP,Vue'
 author: Puresharp Wen
 language: zh-CN
 timezone: 'Asia/Shanghai'
+email: w_chunrui@qq.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -76,7 +77,6 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
 use_date_for_updated: false	
 
 # Pagination
@@ -109,7 +109,7 @@ jsonContent:
     title: true
     date: true
     path: true
-    text: false
+    text: true
     raw: false
     content: false
     slug: false
